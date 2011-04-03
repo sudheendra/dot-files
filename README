@@ -1,0 +1,10 @@
+My Dot Files
+============
+All the dot files are released under the GPL-3.
+The other scripts in the .vim directory are licensed under the appropriate
+licenses, with copyrights attributed to the original authors.
+
+Supported
+--------
+- Settings and mappings that are convenient for C/C++ application development.
+- Handy abbreviations and syntax.

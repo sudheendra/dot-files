@@ -1,0 +1,37 @@
+[ui]
+username = Arun Chandrasekaran <visionofarun@gmail.com>
+editor = vim
+merge = vimdiff
+
+[merge-patterns]
+** = filemerge
+
+[merge-tools]
+filemerge.executable = vim
+filemerge.args = -d $local $other $base
+filemerge.checkchanged = true
+filemerge.gui = true
+
+[diff]
+ignorews = true
+ignorewsamount = true
+ignoreblanklines = true
+
+[alias]
+latest = log --limit 5
+
+[extensions]
+hgext.extdiff =
+hgext.hgk =
+color =
+graphlog =
+churn =
+purge =
+mq =
+rebase =
+convert =
+prompt = ~/bin/hg-prompt/prompt.py
+
+[extdiff]
+cmd.vimdiff =
+cmd.meld =

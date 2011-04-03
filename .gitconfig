@@ -1,0 +1,11 @@
+[user]
+	name = Arun Chandrasekaran
+	email = visionofarun@gmail.com
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = true
+[push]
+	default = current
